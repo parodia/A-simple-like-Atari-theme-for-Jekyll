@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<ol class="">
+  {%- for post in site.posts -%}
+  <li>
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    <span class="">{{ post.date | date: date_format }}</span>
+    <h3>
+      <a class="text_main_unicode" href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}
+      </a>
+    </h3>
+  </li>
+  {%- endfor -%}
+</ol>

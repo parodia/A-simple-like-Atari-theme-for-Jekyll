@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<h1>{{ page.title | escape }}</h1>
+<h5>{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+{{ page.date | date: date_format }}</h5>
+<hr />
+<article class="post_section_fix text_main_unicode">
+  {{ content }}
+</article>
+
+

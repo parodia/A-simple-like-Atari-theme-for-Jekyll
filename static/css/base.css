@@ -1,0 +1,67 @@
+/* Main settings - added */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+html, body {
+  padding: 1vh 3vw;
+  background-color: black;
+  color: gray; /* font color */
+  display: block;
+}
+.shadow_box {
+  box-shadow: 0px 0px 1px 1px blue;
+}
+.site_logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  width: 100%;
+  height: auto;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: gray;
+}
+
+/* General template using > codepen: https://codepen.io/ahmadajmi/pen/XXzXVW; */
+body {
+  margin: 0;
+  font-family: "Kongtext"; /* edited */
+  background-color: black; /* edited */
+  box-shadow: 0px 0px 3px 3px gray; /* customize, added */
+}
+
+.box {
+  /* color: gold; disabled */
+  padding: 1em;
+  text-align: center;
+  /* background-color: pink; disabled */
+  margin: 0.3em; /* customize, added */
+}
+
+.tweets   { background-color: blue; } /* edited */
+.replies  { background-color: black; } /* edited */
+.search   { background-color: blue; } /* edited */
+
+/* Our Grid Code */
+.app-layout {
+  position: relative; /* added */
+  display: grid;
+  grid-template-columns: 1fr 2.8fr 1fr; /* edited */
+  grid-template-rows: 95vh; /* edited */
+}
+
+/* try to resize the screen */
+@media screen and (max-width: 1024px) {
+  .app-layout {
+    display: block; /* edited */
+    grid-template-columns: 1fr; /* edited */
+    grid-template-rows: 70vh 75vh 70vh; /* edited */
+  }
+}

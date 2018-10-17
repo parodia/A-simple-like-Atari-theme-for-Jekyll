@@ -1,0 +1,22 @@
+title: parodia|welcome
+description: personal webpage for my work and some article
+author: parodia
+favicon: /favicon.ico
+about: Sanatçı adayı; aynı zamanda programlamaya meraklıyım.
+contact_mail: beparodia
+contact_mail_at: "[at]gmail.com"
+google_analytics: UA-127558793-1
+
+
+avatar_url: /static/img/avatar.png
+path_logo:
+
+github_url: https://github.com/parodia
+
+baseurl: ""
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true

@@ -1,0 +1,121 @@
+/* Hide scrolbar */
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+/* Customize links */
+a {
+  text-decoration: none;
+  color: #AA00AA;
+}
+
+a:hover,
+a:focus {
+	opacity: ;
+	text-decoration: line-through;
+  text-decoration-color: blue;
+}
+/* fix text */
+h1, h3, h4, ul, ol {
+  word-break: break-word;
+  color: blue;
+}
+/* Fix code wrap */
+pre, code, figure, table {
+  white-space: pre-wrap;
+  word-break: break-word;
+  display: block;
+  font-family: Kongtext;
+  font-size: 11px;
+}
+p {
+  word-break: break-word;
+}
+
+img {
+  display: block;
+  width: 30%;
+  height: auto;
+  margin-left: auto;
+}
+
+.big_one {
+   -moz-box-shadow:    inset 0 0 33px gray;
+   -webkit-box-shadow: inset 0 0 33px gray;
+   box-shadow:         inset 0 0 33px gray;
+   border-radius: 3px;
+}
+/* Custom fonts */
+@font-face {
+  font-family: "Kongtext";
+  src: url("/static/font/kongtext.ttf"); /* my section Font: codeman38 http://www.zone38.net/ */
+}
+@font-face {
+  font-family: "PxPlusTandyNewTV";
+  src: url("/static/font/PxPlus_TandyNew_TV.ttf"); /* Download: https://int10h.org/oldschool-pc-fonts/ */
+}
+
+/* Text settings */
+.text_main {
+  text-align: center;
+  background-color: black;
+}
+.text_main_unicode {
+  font-family: PxPlusTandyNewTV;
+}
+/* Post section */
+.post_section {
+  font-family: "Kongtext";
+  word-wrap: break-word;
+
+  width: 100%;
+  height: 90%;
+  text-align: left;
+  padding-left: 1.5em;
+  margin-right: 1em;
+  overflow-x: auto;
+}
+.post_section_fix {
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+.text_main_extra {
+  display: block;
+  text-align: left;
+  word-wrap: break-word;
+  background-color: black;
+  width: auto;
+  height: auto;
+  padding: 2px 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50%;
+}
+/* fix size */
+@media screen and (max-width: 1024px) {
+  .text_main_extra {
+    display: block;
+    text-align: center;
+    margin-top: 15%;
+  }
+  figure, article, table, h2, h3, h4, ul, ol, p {
+    font-size: 10px;
+  }
+  pre, code {
+    font-size: 6px;
+  }
+  h1 {
+    font-size: 15px;
+  }
+}
