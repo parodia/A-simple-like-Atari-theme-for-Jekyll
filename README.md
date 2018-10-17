@@ -8,5 +8,5 @@
 
 #### Screenshot
 
-![Screenshot Post Page](https://raw.githubusercontent.com/parodia/parodia.github.io/master/screenshot-post-page.png  "Screenshot Post Page")
+![Screenshot Post Page](https://raw.githubusercontent.com/parodia/parodia.github.io/master/screenshot.png  "Screenshot Post Page")
 
