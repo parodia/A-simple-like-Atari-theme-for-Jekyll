@@ -1,17 +1,17 @@
-title: parodia|welcome
-description: personal webpage for my work and some article
-author: parodia
+title: yourstitle
+description: add some description for your website
+author: whoami
 favicon: /favicon.ico
-about: Sanatçı adayı; aynı zamanda programlamaya meraklıyım.
-contact_mail: beparodia
-contact_mail_at: "[at]gmail.com"
-google_analytics: UA-127558793-1
+about: "What i'm doing?"
+contact_mail: whoami
+contact_mail_at: "[at]..."
+google_analytics: 
 
 
 avatar_url: /static/img/avatar.png
 path_logo:
 
-github_url: https://github.com/parodia
+github_url:
 
 baseurl: ""
 markdown: kramdown
