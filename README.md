@@ -4,9 +4,6 @@
 
 > Inspiration;[Donkey Game](https://google.github.io/wwwbasic/examples/donkey.html)
 
-### Demo
-* My personal page; [https://parodia.github.io](https://parodia.github.io)
-
 #### Screenshot
 
 ![Screenshot Post Page](https://raw.githubusercontent.com/parodia/A-simple-like-Atari-theme-for-Jekyll/master/screenshot.png  "Screenshot Post Page")
